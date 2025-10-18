@@ -53,8 +53,10 @@ main {
   top: 0;
   left: 0;
   z-index: 999;
-  background: transparent;
-  backdrop-filter: blur(10px);
+  /* background: transparent; */
+  /* backdrop-filter: blur(10px); */
+  background-color: var(--color-2);
+  color: var(--color-1);
   height: 60px;
   width: 100%;
   display: flex;
@@ -72,7 +74,7 @@ main {
 }
 
 .nav-container .nav-logo h1 {
-  color: var(--color-2);
+  color: var(--color-1);
   font-family: olivera;
   font-size: 1.8rem;
   animation: colorShift 5s infinite linear;
@@ -97,7 +99,7 @@ main {
 }
 
 .nav-content a {
-  color: var(--color-2);
+  color: var(--color-1);
   margin: 0 10px;
   /* color: black; */
   font-size: 1.16rem;
@@ -512,10 +514,10 @@ main {
 #services {
   height: 60px;
   width: 100%;
-  background-color: var(--color-3);
+  background-color: var(--color-2);
   font-family: var(--font-family-1);
   text-align: center;
-  color: var(--color-2);
+  color: var(--color-1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -602,7 +604,7 @@ main {
 .freelancer h2 {
   display: inline-block;
   font-size: 1.6rem;
-  color: var(--color-2);
+  color: var(--color-1);
   margin-right: 16px;
   animation: textscroll 10s linear infinite;
   font-family: var(--font-family-1);
@@ -755,8 +757,9 @@ main {
 }
 
 .contact-us h2 {
-  font-size: 1.6rem;
-  color: var(--color-2);
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: var(--color-1);
   font-family: var(--font-family-1);
 }
 
