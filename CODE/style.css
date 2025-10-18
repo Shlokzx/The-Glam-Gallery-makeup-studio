@@ -56,7 +56,6 @@ main {
   /* background: transparent; */
   /* backdrop-filter: blur(10px); */
   background-color: var(--color-2);
-  color: var(--color-1);
   height: 60px;
   width: 100%;
   display: flex;
@@ -101,7 +100,6 @@ main {
 .nav-content a {
   color: var(--color-1);
   margin: 0 10px;
-  /* color: black; */
   font-size: 1.16rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   cursor: pointer;
@@ -915,7 +913,7 @@ main {
   }
 
   .nav-content a {
-    color: var(--color-2);
+    color: var(--color-1);
     margin: 0 4px;
     font-size: 0.7rem;
     font-weight: 500;
