@@ -987,7 +987,6 @@ main{
     .page-3 .child{
         height: 90%;
         width: 80%;
-        border: 1px solid black;
         flex-shrink: 0;
     }
 
