@@ -75,7 +75,7 @@ main{
 .nav-container .nav-logo h1{
     color: var(--color-2);
     font-family: olivera;
-    font-size: 2rem;
+    font-size: 1.8rem;
     animation: colorShift 5s infinite linear;
 }
 
